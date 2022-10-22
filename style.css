@@ -37,8 +37,17 @@ a {
 .right-links{
     display: flex;
     gap: 23px;
-
     align-items: center;
     justify-content: flex-end;
     margin-right: 30px;
+}
+
+.bodytext{
+    background-color:#1F2937;
+}
+
+.first{
+    max-width: 850px;
+    height: 500px;
+
 }
