@@ -46,7 +46,6 @@ a {
     background-color:#1F2937;
     display: flex;
     justify-content: center;
-
 }
 
 .first{
@@ -58,7 +57,7 @@ a {
 
 }
 
-img{
+#mainimg{
     max-width: 650px;
     height: auto;
     margin-right: 30px;
@@ -72,7 +71,8 @@ h1{
 
 #secondarytext {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    text-align: justify;    
 }
 
 #mainleft {
@@ -91,3 +91,38 @@ button{
     max-width: 100px;
     padding: 10px;
 }
+
+.second-section{
+    background-color: #f9faf8;
+    padding: 60px 0 100px 0;
+}
+
+.sectionimg {
+    max-width: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second-section-container {
+    display: flex;
+    gap: 40px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.third-section{}
