@@ -16,7 +16,7 @@ header{
 }
 
 .header {
-    max-width: 850px;
+    max-width: 1500px;
     display: flex;
     justify-content: space-between; 
     flex: 1 1 0;
@@ -44,10 +44,50 @@ a {
 
 .bodytext{
     background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+
 }
 
 .first{
-    max-width: 850px;
-    height: 500px;
+    padding: 60px 0px 75px 0px;
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    justify-content: space-between;
 
+}
+
+img{
+    max-width: 650px;
+    height: auto;
+    margin-right: 30px;
+}
+
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#secondarytext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+#mainleft {
+    margin-left: 30px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 5px;
+    font-weight: bold;
+    max-width: 100px;
+    padding: 10px;
 }
