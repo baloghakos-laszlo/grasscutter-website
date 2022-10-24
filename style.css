@@ -7,9 +7,12 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+header, footer, .bodytext {
+    background-color: #1F2937;
+}
+
 header{
     padding: 15px 0px 15px 0px ;
-    background-color: #1F2937;
     color: #f9faf8;
     display: flex;
     justify-content: center;
@@ -43,7 +46,6 @@ a {
 }
 
 .bodytext{
-    background-color:#1F2937;
     display: flex;
     justify-content: center;
 }
@@ -71,8 +73,7 @@ h1{
 
 #secondarytext {
     font-size: 18px;
-    color: #E5E7EB;
-    text-align: justify;    
+    color: #E5E7EB;   
 }
 
 #mainleft {
@@ -86,15 +87,15 @@ h1{
 button{
     background-color: #3882f6;
     color:#f9faf8;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
     max-width: 100px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .second-section{
     background-color: #f9faf8;
-    padding: 60px 0 100px 0;
+    padding: 60px 40px 100px 40px;
 }
 
 .sectionimg {
@@ -106,7 +107,9 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     max-width: 1320px;
+
 }
 
 #second-section-container {
@@ -129,7 +132,7 @@ h2{
 
 .third-section{
     background-color: #E5E7EB;
-    padding: 230px 0 180px 0;
+    padding: 230px 40px 180px 40px;
 }
 
 .second-section, .third-section {
@@ -155,4 +158,54 @@ h2{
     font-weight: 800;
     color: black;
     font-size: 30px;
+}
+
+.bluebox {
+    max-width: 1500px;
+    background-color: #3882f6;
+    flex: 1;
+    border-radius: 15px;
+    padding:  30px 10px 30px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth-section {
+    padding: 100px 200px 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth-section-text {
+    color: white;
+    max-width: 650px;
+
+}
+
+
+#fourth-section-text p {
+    color:#E5E7EB
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth-section-button {
+    border-color:  white
+}
+
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content {
+    padding: 30px
 }
